@@ -1,0 +1,96 @@
+.cards {
+  margin: 15rem 20rem;
+  overflow: hidden;
+
+  .card {
+    width: 110%;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 7rem;
+
+    @include responsive(tab-landscape) {
+      width:105%;
+      padding: 4.5rem;
+    }
+    
+    @include responsive(tab-portrait) {
+      width: 100%;
+      padding: 6rem;
+      img {
+        width: 20%;
+      }
+      height: 100vh;
+      margin-bottom: -23rem;
+    }
+
+    @include responsive(phone) {
+      width: 100%;
+      img {
+        width: 40%;
+      }
+      padding:3rem;
+      height: 50vh;
+      margin-bottom: -5rem;
+    }
+
+
+    &__heading {
+      font-family: $heading-font;
+      font-size: 4rem;
+      text-transform: uppercase;
+      padding: 2rem 0 2rem 0;
+
+      
+
+      @include responsive(phone) {
+        font-size: 2.5rem;
+      }
+    }
+
+    &__details {
+      .paragraph {
+        color: $white-transparent;
+        line-height: 2.5rem;
+        padding-bottom: 8rem;
+
+        @include responsive(tab-portrait) {
+        font-size: 2rem;
+        line-height: 4rem;
+        padding-bottom: 6rem;
+      }
+
+        @include responsive(phone) {
+        font-size: 1rem;
+        line-height: 2rem;
+        padding-bottom: 2rem;
+      }
+      }
+    }
+
+
+    &-1 {
+      background-color: $orange-color;
+    }
+
+    &-2 {
+      background-color: $dark-cyan-color;
+    }
+
+    &-3 {
+      background-color: $darker-cyan-color;
+      @include responsive(tab-portrait) {
+        margin-bottom: 0;
+        height: 70vh;
+      }
+
+      @include responsive(phone) {
+        margin-bottom: 0;
+        height: 45vh;
+      }
+      
+    }
+  }
+}

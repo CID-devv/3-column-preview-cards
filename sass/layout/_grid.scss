@@ -1,0 +1,21 @@
+// max width fills 100% of the available space 
+.row {
+  max-width: $grid-width;
+  margin: 0 auto;
+
+  @include clearfix;
+
+  // selects all elements that start or contain class col
+  [class^="col-"] {
+    float: left;
+
+    @include responsive(tab-portrait) {
+      width: 100% !important;
+    }
+  }
+
+  .col-1-of-3 {
+    // 
+    width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+  }
+}

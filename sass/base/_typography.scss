@@ -1,0 +1,20 @@
+body {
+  background-color: $light-gray;
+  color: $light-gray;
+  font-family: $main-font;
+  font-size: $default-font-size;
+}
+
+.attribution { 
+  font-size: 1.1rem; 
+  text-align: center; 
+  color: $orange-color;
+  
+  a { 
+    color: $attribution-color; 
+  }
+
+  @include responsive(tab-portrait) {
+      margin-bottom: 2rem;
+    }
+}

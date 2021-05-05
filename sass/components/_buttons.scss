@@ -1,0 +1,54 @@
+.btn {
+  text-decoration: none;
+  padding: 1.5rem 3rem;
+  border-radius: 3rem;
+  -webkit-border-radius: 3rem;
+  -moz-border-radius: 3rem;
+  -ms-border-radius: 3rem;
+  -o-border-radius: 3rem;
+
+
+  @include responsive(tab-landscape) {
+    padding: 1.5rem 2.5rem;
+  }
+  
+  @include responsive(tab-portrait) {
+    padding: 1.5rem 4rem;
+    border-radius: 5rem;
+    -webkit-border-radius: 5rem;
+    -moz-border-radius: 5rem;
+    -ms-border-radius: 5rem;
+    -o-border-radius: 5rem;
+}
+
+  @include responsive(phone) {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+  }
+
+  &--orange {
+    background-color: $light-gray;
+    color: $orange-color;
+    
+  }
+
+  &--dark-cyan {
+    background-color: $light-gray;
+    color: $dark-cyan-color;
+    
+  }
+
+  &--darker-cyan {
+    background-color: $light-gray;
+    color: $darker-cyan-color;
+
+   
+    
+  }
+
+  &:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid #fff;
+  }
+}
