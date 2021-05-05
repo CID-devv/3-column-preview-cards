@@ -14,7 +14,7 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-
+- [Acknowledgments](#acknowledgments)
 
 ## Overview
 
@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.png)
+![](images/screenshot.png)
 
 ### Links
 
@@ -80,7 +80,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Cassandra Dauphin]
 - Frontend Mentor - [@cassandradauphin](https://www.frontendmentor.io/profile/cassandradauphin)
 - Twitter - [@The_Haitian_Dev](https://www.twitter.com/The_Haitian_Dev)
 
