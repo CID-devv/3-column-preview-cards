@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![https://media.giphy.com/media/o0bVk2mrU6b74P9RtP/giphy.gif](README.md)
+![screenshot](https://media.giphy.com/media/o0bVk2mrU6b74P9RtP/giphy.gif)
 
 ### Links
 
