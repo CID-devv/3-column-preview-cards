@@ -27,12 +27,12 @@ Users should be able to:
 
 ### Screenshot
 
-![screenshot.png](README.md)
+![https://media.giphy.com/media/o0bVk2mrU6b74P9RtP/source.mov](README.md)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL:(https://github.com/cassandradauphin/3-column-preview-cards)
+- Live Site URL:(https://3-column-preview-cards.netlify.app/)
 
 ## My process
 
