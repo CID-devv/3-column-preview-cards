@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/screenshot.png)
+![./design/screenshot.png](README.md)
 
 ### Links
 
