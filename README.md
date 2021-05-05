@@ -27,7 +27,7 @@ Users should be able to:
 
 ### Screenshot
 
-![<iframe src="https://giphy.com/embed/o0bVk2mrU6b74P9RtP" width="480" height="280" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/o0bVk2mrU6b74P9RtP">via GIPHY</a></p>](README.md)
+![https://media.giphy.com/media/o0bVk2mrU6b74P9RtP/giphy.gif](README.md)
 
 ### Links
 
