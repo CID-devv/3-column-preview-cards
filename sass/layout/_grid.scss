@@ -5,10 +5,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  // padding: 0 5rem;
+  padding: 0 5rem;
 
   @include responsive(tab-landscape) {
-    padding: 0 5rem;
+    // padding: 0 5rem;
+    margin: 5rem 0;
   }
 
   @include responsive(tab-portrait) {
@@ -19,12 +20,14 @@
 
 @include responsive (phone-landscape) {
   display: flex;
-  margin: 0;
+  margin: 5rem 0;
   height: 100vh;
 }
 
   @include responsive(phone) {
+    display: block;
     margin: 5rem 11rem;
+    padding: 0;
   }
 
   // @include clearfix;

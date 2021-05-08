@@ -25,7 +25,7 @@ html {
 body {
   box-sizing: border-box; }
 
-@media (min-width: 64em) {
+@media (max-width: 64em) {
   font-size: 56.25%; }
 
 @media (max-width: 56.25em) {
@@ -52,7 +52,7 @@ body {
       position: absolute;
       top: 178rem;
       left: 28%; } }
-  @media (min-width: 43.75em) {
+  @media (max-width: 46.875em) {
     .attribution {
       position: absolute;
       top: 86rem;
@@ -60,20 +60,20 @@ body {
   @media (max-width: 37.5em) {
     .attribution {
       position: absolute;
-      top: 120rem;
-      left: 10%; } }
+      top: 140rem;
+      left: 20%; } }
 
 .btn {
   text-decoration: none;
-  padding: 1.5rem 3rem;
+  padding: 1.5rem 4rem;
   border-radius: 3rem;
   -webkit-border-radius: 3rem;
   -moz-border-radius: 3rem;
   -ms-border-radius: 3rem;
   -o-border-radius: 3rem; }
-  @media (min-width: 64em) {
+  @media (max-width: 64em) {
     .btn {
-      padding: 1.5rem 2.5rem; } }
+      padding: 1.5rem 4rem; } }
   @media (max-width: 56.25em) {
     .btn {
       padding: 1.5rem 4rem;
@@ -82,14 +82,14 @@ body {
       -moz-border-radius: 5rem;
       -ms-border-radius: 5rem;
       -o-border-radius: 5rem; } }
-  @media (min-width: 43.75em) {
+  @media (max-width: 46.875em) {
     .btn {
       padding: 1rem 2.5rem;
       font-size: 1.5rem; } }
   @media (max-width: 37.5em) {
     .btn {
-      padding: 0.8rem 2rem;
-      font-size: 1rem; } }
+      padding: 1.5rem 3.5rem;
+      font-size: 1.5rem; } }
   .btn--orange {
     background-color: #f2f2f2;
     color: #e38826; }
@@ -105,103 +105,111 @@ body {
     border: 2px solid #fff; }
 
 .cards .card {
-  width: 110%;
+  width: 105%;
   border-radius: 8px;
   -webkit-border-radius: 8px;
   -moz-border-radius: 8px;
   -ms-border-radius: 8px;
-  -o-border-radius: 8px; }
-  @media (min-width: 64em) {
+  -o-border-radius: 8px;
+  height: 80vh;
+  padding: 8.35rem; }
+  @media (max-width: 64em) {
     .cards .card {
       width: 105%;
-      padding: 4.5rem; } }
+      padding: 5.5rem;
+      height: 70vh; } }
   @media (max-width: 56.25em) {
     .cards .card {
       width: 100%;
       padding: 6rem;
       height: 100vh;
-      margin-bottom: -45rem; }
+      margin-bottom: -30rem; }
       .cards .card img {
         width: 20%; } }
-  @media (min-width: 43.75em) {
+  @media (max-width: 46.875em) {
     .cards .card {
       width: 105%;
-      padding: 4.5rem; }
-      .cards .card img {
-        width: 20%; } }
+      padding: 4.5rem;
+      height: 50vh;
+      margin-bottom: 0; } }
   @media (max-width: 37.5em) {
     .cards .card {
-      width: 100%;
-      padding: 3rem;
-      height: 50vh;
-      margin-bottom: -5rem; }
-      .cards .card img {
-        width: 40%; } }
+      width: 90%;
+      padding: 4.5rem;
+      height: 70vh;
+      margin-bottom: -10rem; } }
   .cards .card__heading {
     font-family: "Big Shoulders Display", cursive;
     font-size: 4rem;
     text-transform: uppercase;
     padding: 2rem 0 2rem 0; }
-    @media (max-width: 37.5em) {
-      .cards .card__heading {
-        font-size: 2.5rem; } }
   .cards .card__details .paragraph {
     color: rgba(255, 255, 255, 0.75);
-    line-height: 2.5rem;
-    padding-bottom: 8rem; }
+    font-size: 2rem;
+    line-height: 4.5rem;
+    padding-bottom: 12rem; }
+    @media (max-width: 64em) {
+      .cards .card__details .paragraph {
+        font-size: 1.5rem;
+        line-height: 3rem; } }
     @media (max-width: 56.25em) {
       .cards .card__details .paragraph {
-        font-size: 2rem;
+        font-size: 2.3rem;
         line-height: 4rem;
         padding-bottom: 6rem; } }
-    @media (min-width: 43.75em) {
+    @media (max-width: 46.875em) {
       .cards .card__details .paragraph {
-        line-height: 4rem;
         line-height: 3rem;
         font-size: 1.1rem;
         padding-bottom: 3.5rem; } }
     @media (max-width: 37.5em) {
       .cards .card__details .paragraph {
-        font-size: 1rem;
-        line-height: 2rem;
-        padding-bottom: 2rem; } }
+        font-size: 1.5rem;
+        line-height: 3rem;
+        padding-bottom: 4rem; } }
   .cards .card-1 {
     background-color: #e38826; }
   .cards .card-2 {
     background-color: #006970; }
   .cards .card-3 {
     background-color: #004241; }
-    @media (max-width: 56.25em) {
+    @media (max-width: 64em) {
       .cards .card-3 {
         margin-bottom: 0;
-        height: 55vh; } }
-    @media (min-width: 43.75em) {
+        height: 70vh; } }
+    @media (max-width: 56.25em) {
       .cards .card-3 {
-        margin-bottom: -45rem;
-        height: 100vh; } }
+        height: 68vh; } }
+    @media (max-width: 46.875em) {
+      .cards .card-3 {
+        margin-bottom: 0;
+        height: 50vh; } }
     @media (max-width: 37.5em) {
       .cards .card-3 {
         margin-bottom: 0;
-        height: 45vh; } }
+        height: 60vh; } }
 
 .row {
   height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center; }
-  @media (min-width: 64em) {
+  align-items: center;
+  padding: 0 5rem; }
+  @media (max-width: 64em) {
     .row {
-      padding: 0 5rem; } }
+      margin: 5rem 0; } }
   @media (max-width: 56.25em) {
     .row {
       display: block;
       margin: 5rem 20rem;
       padding: 0; } }
-  @media (min-width: 43.75em) {
+  @media (max-width: 46.875em) {
     .row {
       display: flex;
-      margin: 0;
+      margin: 5rem 0;
       height: 100vh; } }
   @media (max-width: 37.5em) {
     .row {
-      margin: 5rem 11rem; } }
+      display: block;
+      margin: 5rem 11rem;
+      padding: 0; } }
