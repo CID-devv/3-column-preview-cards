@@ -1,6 +1,5 @@
 .cards {
-  margin: 15rem 20rem;
-  overflow: hidden;
+
 
   .card {
     width: 110%;
@@ -9,7 +8,7 @@
     -moz-border-radius: 8px;
     -ms-border-radius: 8px;
     -o-border-radius: 8px;
-    padding: 7rem;
+    // padding: 7rem;
 
     @include responsive(tab-landscape) {
       width:105%;
@@ -23,7 +22,15 @@
         width: 20%;
       }
       height: 100vh;
-      margin-bottom: -23rem;
+      margin-bottom: -45rem;
+    }
+
+    @include responsive (phone-landscape) {
+      width: 105%;
+      padding: 4.5rem;
+      img {
+        width: 20%;
+      }
     }
 
     @include responsive(phone) {
@@ -62,6 +69,13 @@
         padding-bottom: 6rem;
       }
 
+        @include responsive (phone-landscape){
+        line-height: 4rem;
+        line-height: 3rem;
+        font-size: 1.1rem;
+        padding-bottom: 3.5rem;
+      }
+
         @include responsive(phone) {
         font-size: 1rem;
         line-height: 2rem;
@@ -83,7 +97,12 @@
       background-color: $darker-cyan-color;
       @include responsive(tab-portrait) {
         margin-bottom: 0;
-        height: 70vh;
+        height: 55vh;
+      }
+
+      @include responsive (phone-landscape) {
+        margin-bottom: -45rem;
+        height: 100vh;
       }
 
       @include responsive(phone) {

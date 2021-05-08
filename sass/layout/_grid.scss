@@ -1,21 +1,45 @@
 // max width fills 100% of the available space 
 .row {
-  max-width: $grid-width;
-  margin: 0 auto;
+  // max-width: $grid-width;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  // padding: 0 5rem;
 
-  @include clearfix;
-
-  // selects all elements that start or contain class col
-  [class^="col-"] {
-    float: left;
-
-    @include responsive(tab-portrait) {
-      width: 100% !important;
-    }
+  @include responsive(tab-landscape) {
+    padding: 0 5rem;
   }
 
-  .col-1-of-3 {
-    // 
-    width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+  @include responsive(tab-portrait) {
+    display:block;
+    margin: 5rem 20rem;
+    padding: 0;
   }
+
+@include responsive (phone-landscape) {
+  display: flex;
+  margin: 0;
+  height: 100vh;
+}
+
+  @include responsive(phone) {
+    margin: 5rem 11rem;
+  }
+
+  // @include clearfix;
+
+  // // selects all elements that start or contain class col
+  // [class^="col-"] {
+  //   float: left;
+
+  //   @include responsive(tab-portrait) {
+  //     width: 100% !important;
+  //   }
+  // }
+
+  // .col-1-of-3 {
+  //   // 
+  //   width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
+  // }
 }

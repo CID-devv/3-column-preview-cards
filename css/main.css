@@ -25,7 +25,7 @@ html {
 body {
   box-sizing: border-box; }
 
-@media (max-width: 75em) {
+@media (min-width: 64em) {
   font-size: 56.25%; }
 
 @media (max-width: 56.25em) {
@@ -43,12 +43,25 @@ body {
 .attribution {
   font-size: 1.1rem;
   text-align: center;
-  color: #e38826; }
+  color: #e38826;
+  position: relative; }
   .attribution a {
     color: #3e52a3; }
   @media (max-width: 56.25em) {
     .attribution {
-      margin-bottom: 2rem; } }
+      position: absolute;
+      top: 178rem;
+      left: 28%; } }
+  @media (min-width: 43.75em) {
+    .attribution {
+      position: absolute;
+      top: 86rem;
+      left: 28%; } }
+  @media (max-width: 37.5em) {
+    .attribution {
+      position: absolute;
+      top: 120rem;
+      left: 10%; } }
 
 .btn {
   text-decoration: none;
@@ -58,7 +71,7 @@ body {
   -moz-border-radius: 3rem;
   -ms-border-radius: 3rem;
   -o-border-radius: 3rem; }
-  @media (max-width: 75em) {
+  @media (min-width: 64em) {
     .btn {
       padding: 1.5rem 2.5rem; } }
   @media (max-width: 56.25em) {
@@ -69,6 +82,10 @@ body {
       -moz-border-radius: 5rem;
       -ms-border-radius: 5rem;
       -o-border-radius: 5rem; } }
+  @media (min-width: 43.75em) {
+    .btn {
+      padding: 1rem 2.5rem;
+      font-size: 1.5rem; } }
   @media (max-width: 37.5em) {
     .btn {
       padding: 0.8rem 2rem;
@@ -87,85 +104,104 @@ body {
     color: #fff;
     border: 2px solid #fff; }
 
-.cards {
-  margin: 15rem 20rem;
-  overflow: hidden; }
-  .cards .card {
-    width: 110%;
-    border-radius: 8px;
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -ms-border-radius: 8px;
-    -o-border-radius: 8px;
-    padding: 7rem; }
-    @media (max-width: 75em) {
-      .cards .card {
-        width: 105%;
-        padding: 4.5rem; } }
-    @media (max-width: 56.25em) {
-      .cards .card {
-        width: 100%;
-        padding: 6rem;
-        height: 100vh;
-        margin-bottom: -23rem; }
-        .cards .card img {
-          width: 20%; } }
+.cards .card {
+  width: 110%;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px; }
+  @media (min-width: 64em) {
+    .cards .card {
+      width: 105%;
+      padding: 4.5rem; } }
+  @media (max-width: 56.25em) {
+    .cards .card {
+      width: 100%;
+      padding: 6rem;
+      height: 100vh;
+      margin-bottom: -45rem; }
+      .cards .card img {
+        width: 20%; } }
+  @media (min-width: 43.75em) {
+    .cards .card {
+      width: 105%;
+      padding: 4.5rem; }
+      .cards .card img {
+        width: 20%; } }
+  @media (max-width: 37.5em) {
+    .cards .card {
+      width: 100%;
+      padding: 3rem;
+      height: 50vh;
+      margin-bottom: -5rem; }
+      .cards .card img {
+        width: 40%; } }
+  .cards .card__heading {
+    font-family: "Big Shoulders Display", cursive;
+    font-size: 4rem;
+    text-transform: uppercase;
+    padding: 2rem 0 2rem 0; }
     @media (max-width: 37.5em) {
-      .cards .card {
-        width: 100%;
-        padding: 3rem;
-        height: 50vh;
-        margin-bottom: -5rem; }
-        .cards .card img {
-          width: 40%; } }
-    .cards .card__heading {
-      font-family: "Big Shoulders Display", cursive;
-      font-size: 4rem;
-      text-transform: uppercase;
-      padding: 2rem 0 2rem 0; }
-      @media (max-width: 37.5em) {
-        .cards .card__heading {
-          font-size: 2.5rem; } }
-    .cards .card__details .paragraph {
-      color: rgba(255, 255, 255, 0.75);
-      line-height: 2.5rem;
-      padding-bottom: 8rem; }
-      @media (max-width: 56.25em) {
-        .cards .card__details .paragraph {
-          font-size: 2rem;
-          line-height: 4rem;
-          padding-bottom: 6rem; } }
-      @media (max-width: 37.5em) {
-        .cards .card__details .paragraph {
-          font-size: 1rem;
-          line-height: 2rem;
-          padding-bottom: 2rem; } }
-    .cards .card-1 {
-      background-color: #e38826; }
-    .cards .card-2 {
-      background-color: #006970; }
-    .cards .card-3 {
-      background-color: #004241; }
-      @media (max-width: 56.25em) {
-        .cards .card-3 {
-          margin-bottom: 0;
-          height: 70vh; } }
-      @media (max-width: 37.5em) {
-        .cards .card-3 {
-          margin-bottom: 0;
-          height: 45vh; } }
+      .cards .card__heading {
+        font-size: 2.5rem; } }
+  .cards .card__details .paragraph {
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 2.5rem;
+    padding-bottom: 8rem; }
+    @media (max-width: 56.25em) {
+      .cards .card__details .paragraph {
+        font-size: 2rem;
+        line-height: 4rem;
+        padding-bottom: 6rem; } }
+    @media (min-width: 43.75em) {
+      .cards .card__details .paragraph {
+        line-height: 4rem;
+        line-height: 3rem;
+        font-size: 1.1rem;
+        padding-bottom: 3.5rem; } }
+    @media (max-width: 37.5em) {
+      .cards .card__details .paragraph {
+        font-size: 1rem;
+        line-height: 2rem;
+        padding-bottom: 2rem; } }
+  .cards .card-1 {
+    background-color: #e38826; }
+  .cards .card-2 {
+    background-color: #006970; }
+  .cards .card-3 {
+    background-color: #004241; }
+    @media (max-width: 56.25em) {
+      .cards .card-3 {
+        margin-bottom: 0;
+        height: 55vh; } }
+    @media (min-width: 43.75em) {
+      .cards .card-3 {
+        margin-bottom: -45rem;
+        height: 100vh; } }
+    @media (max-width: 37.5em) {
+      .cards .card-3 {
+        margin-bottom: 0;
+        height: 45vh; } }
 
 .row {
-  max-width: 144rem;
-  margin: 0 auto; }
-  .row::after {
-    content: "";
-    display: table;
-    clear: both; }
-  .row [class^="col-"] {
-    float: left; }
-    @media (max-width: 56.25em) {
-      .row [class^="col-"] {
-        width: 100% !important; } }
-  .row .col-1-of-3 {
-    width: calc((100% - 2 * 6rem) / 3); }
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  @media (min-width: 64em) {
+    .row {
+      padding: 0 5rem; } }
+  @media (max-width: 56.25em) {
+    .row {
+      display: block;
+      margin: 5rem 20rem;
+      padding: 0; } }
+  @media (min-width: 43.75em) {
+    .row {
+      display: flex;
+      margin: 0;
+      height: 100vh; } }
+  @media (max-width: 37.5em) {
+    .row {
+      margin: 5rem 11rem; } }

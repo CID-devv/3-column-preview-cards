@@ -27,12 +27,16 @@ $breakpoint argument choices
     @media (max-width: 37.5em) { @content }; //600px / 16
   }
 
+  @if $breakpoint == phone-landscape {
+    @media (min-width: 43.75em) { @content }; //600px / 16
+  }
+
   @if $breakpoint == tab-portrait {
     @media (max-width: 56.25em) { @content }; // 900px / 16
   }
 
   @if $breakpoint == tab-landscape {
-    @media (max-width: 75em) { @content }; // 1200px / 16
+    @media (min-width: 64em) { @content }; // 1024px / 16
   }
 
   @if $breakpoint == big-desktop {

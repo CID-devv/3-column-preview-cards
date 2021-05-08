@@ -6,6 +6,7 @@
   -moz-border-radius: 3rem;
   -ms-border-radius: 3rem;
   -o-border-radius: 3rem;
+  
 
 
   @include responsive(tab-landscape) {
@@ -20,6 +21,11 @@
     -ms-border-radius: 5rem;
     -o-border-radius: 5rem;
 }
+
+  @include responsive (phone-landscape){
+    padding: 1rem 2.5rem;
+    font-size: 1.5rem;
+  }
 
   @include responsive(phone) {
     padding: 0.8rem 2rem;
