@@ -5,9 +5,13 @@
 	justify-content: center;
 	align-content: center;
 	max-width: 30rem;
-	transition: display .5s;
+	transition: display .5s;	
+	-webkit-transition: display .5s;
+	-moz-transition: display .5s;
+	-ms-transition: display .5s;
+	-o-transition: display .5s;
 
-	@include responsive (tab-landscape) {
+  @include responsive (tab-landscape) {
 		flex-direction: row;
 		padding: 7rem;
 		max-width: 80%;
@@ -15,7 +19,7 @@
 
 	.card {
 		padding: 4rem;
-		color: #ffffff;
+		color: #fff;
 
 		&__heading {
 			font-family: $heading-font;

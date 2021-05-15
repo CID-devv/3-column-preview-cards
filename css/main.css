@@ -12,7 +12,7 @@ html {
 body {
   box-sizing: border-box; }
 
-@media (min-width: 56.25em) {
+@media (min-width: 900px) {
   font-size: 56.25%; }
 
 body {
@@ -21,34 +21,31 @@ body {
   font-family: "Lexend Deca", sans-serif;
   font-size: 1.5rem; }
 
-.attribution {
+footer .attribution {
   font-size: 1.1rem;
   text-align: center;
   color: #e38826; }
-  .attribution a {
+  footer .attribution a {
     color: #3e52a3; }
 
 .btn {
-  text-decoration: none;
-  padding: 1.5rem 4rem;
-  border-radius: 3rem;
-  -webkit-border-radius: 3rem;
-  -moz-border-radius: 3rem;
-  -ms-border-radius: 3rem;
-  -o-border-radius: 3rem;
+  background-color: #fff;
+  height: 3rem;
+  width: 9rem;
+  font-family: inherit;
+  font-size: 0.0625rem;
+  border: 2px solid transparent;
+  border-radius: 50px;
   transition: all .5s;
   -webkit-transition: all .5s;
   -moz-transition: all .5s;
   -ms-transition: all .5s;
   -o-transition: all .5s; }
   .btn--orange {
-    background-color: #f2f2f2;
     color: #e38826; }
   .btn--dark-cyan {
-    background-color: #f2f2f2;
     color: #006970; }
   .btn--darker-cyan {
-    background-color: #f2f2f2;
     color: #004241; }
   .btn:hover {
     background-color: transparent;
@@ -62,15 +59,19 @@ body {
   justify-content: center;
   align-content: center;
   max-width: 30rem;
-  transition: display .5s; }
-  @media (min-width: 56.25em) {
+  transition: display .5s;
+  -webkit-transition: display .5s;
+  -moz-transition: display .5s;
+  -ms-transition: display .5s;
+  -o-transition: display .5s; }
+  @media (min-width: 900px) {
     .cards {
       flex-direction: row;
       padding: 7rem;
       max-width: 80%; } }
   .cards .card {
     padding: 4rem;
-    color: #ffffff; }
+    color: #fff; }
     .cards .card__heading {
       font-family: "Big Shoulders Display", cursive;
       font-size: 3rem;
@@ -89,7 +90,7 @@ body {
       -moz-border-radius: 1rem 1rem 0 0;
       -ms-border-radius: 1rem 1rem 0 0;
       -o-border-radius: 1rem 1rem 0 0; }
-      @media (min-width: 56.25em) {
+      @media (min-width: 900px) {
         .cards .card--sedans {
           border-radius: 1rem 0 0 1rem;
           -webkit-border-radius: 1rem 0 0 1rem;
@@ -105,7 +106,7 @@ body {
       -moz-border-radius: 0 0 1rem 1rem;
       -ms-border-radius: 0 0 1rem 1rem;
       -o-border-radius: 0 0 1rem 1rem; }
-      @media (min-width: 56.25em) {
+      @media (min-width: 900px) {
         .cards .card--luxury {
           border-radius: 0 1rem 1rem 0;
           -webkit-border-radius: 0 1rem 1rem 0;

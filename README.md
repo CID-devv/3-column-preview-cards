@@ -57,5 +57,5 @@ Users should be able to:
 
 - Frontend Mentor - [@cassandradauphin](https://www.frontendmentor.io/profile/cassandradauphin)
 - Twitter - [@The_Haitian_Dev](https://www.twitter.com/The_Haitian_Dev)
--Website - [CassandraDauphin](https://www.cassandradauphin.com/)
+- Website - [CassandraDauphin](https://www.cassandradauphin.com/)
 
