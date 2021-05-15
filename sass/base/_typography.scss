@@ -5,12 +5,15 @@ body {
   font-size: $default-font-size;
 }
 
-.attribution { 
-  font-size: 1.1rem; 
-  text-align: center; 
-  color: $orange-color;
+footer {
+  .attribution { 
+    font-size: 1.1rem; 
+    text-align: center; 
+    color: $orange-color;
 
-  a { 
-    color: $attribution-color; 
+    a { 
+      color: $attribution-color; 
+    }
   }
 }
+

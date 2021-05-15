@@ -10,7 +10,6 @@ This is a solution to the [3-column preview card component challenge on Frontend
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -42,44 +41,21 @@ Users should be able to:
 - CSS custom properties
 - SASS
 - Mobile-first workflow
-
-### What I learned
-
-```css
-.row {
-  max-width: $grid-width;
-  margin: 0 auto;
-
-  @include clearfix;
-
-  // selects all elements that start or contain class col
-  [class^="col-"] {
-    float: left;
-
-    @include responsive(tab-portrait) {
-      width: 100% !important;
-    }
-  }
-
-  .col-1-of-3 {
-    // 
-    width: calc((100% - 2 * #{$gutter-horizontal}) / 3);
-  }
-}
-```
+- Flexbox
 
 ### Continued development
 - Learn more about SASS structure
 - Learn more about CSS mobile 1st design 
-- Learn more about CSS floats layout
+- Learn more about CSS flexbox layout
 
 ### Useful resources
 
-- [Resource 1](https://www.w3schools.com/) - This helped me for CSS float laytout. I really liked this pattern and will use it going forward.
-- [Resource 2](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Floats) - This is an amazing article which helped me finally understand CSS floats. I'd recommend it to anyone still learning this concept.
+- [Resource 1](https://www.w3schools.com/) - This helped me for CSS media query. I really liked this pattern and will use it going forward.
+- [Resource 2](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - This is an amazing article which helped me finally understand CSS flexbox. I'd recommend it to anyone still learning this concept.
 
 ## Author
 
 - Frontend Mentor - [@cassandradauphin](https://www.frontendmentor.io/profile/cassandradauphin)
 - Twitter - [@The_Haitian_Dev](https://www.twitter.com/The_Haitian_Dev)
+-Website - [CassandraDauphin](https://www.cassandradauphin.com/)
 
