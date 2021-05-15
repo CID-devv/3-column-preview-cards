@@ -1,26 +1,31 @@
 .btn {
-	background-color: #fff;
-	height: 3rem;
-	width: 9rem;
-	font-family: inherit;
-	font-size: 0.0625rem;
-	border: 2px solid transparent;
-	border-radius: 50px;
+	padding: 1.5rem 4rem;
+	border-radius: 3rem;
+	-webkit-border-radius: 3rem;
+	-moz-border-radius: 3rem;
+	-ms-border-radius: 3rem;
+	-o-border-radius: 3rem;
 	transition: all .5s;
 	-webkit-transition: all .5s;
 	-moz-transition: all .5s;
 	-ms-transition: all .5s;
 	-o-transition: all .5s;
+	border: 2px solid transparent;
+	font-size: 1em;
+	font-family: inherit;
 
 	&--orange {
+		background-color: $light-gray;
 		color: $orange-color;
 	}
 
 	&--dark-cyan {
+		background-color: $light-gray;
 		color: $dark-cyan-color;
 	}
 
 	&--darker-cyan {
+		background-color: $light-gray;
 		color: $darker-cyan-color;
 	}
 

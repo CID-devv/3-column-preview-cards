@@ -1,19 +1,16 @@
 body {
-  background-color: $light-gray;
-  color: $light-gray;
-  font-family: $main-font;
-  font-size: $default-font-size;
+	background-color: $light-gray;
+	color: $light-gray;
+	font-family: $main-font;
+	font-size: $default-font-size;
 }
 
-footer {
-  .attribution { 
-    font-size: 1.1rem; 
-    text-align: center; 
-    color: $orange-color;
+.attribution {
+	font-size: 1.1rem;
+	text-align: center;
+	color: $orange-color;
 
-    a { 
-      color: $attribution-color; 
-    }
-  }
+	a {
+		color: $attribution-color;
+	}
 }
-

@@ -3,6 +3,6 @@
 @mixin responsive($breakpoint) {
 
   @if $breakpoint == tab-landscape {
-    @media (min-width: 56.25em) { @content }; // 900px / 16
+    @media only screen and (min-width: 56.25em) { @content }; // 900px / 16
   }
 }
