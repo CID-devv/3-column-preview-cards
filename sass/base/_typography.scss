@@ -9,28 +9,8 @@ body {
   font-size: 1.1rem; 
   text-align: center; 
   color: $orange-color;
-  position: relative;
-  
+
   a { 
     color: $attribution-color; 
   }
-
-  @include responsive(tab-portrait) {
-      // margin-top: 70rem;
-      position: absolute;
-      top: 178rem;
-      left: 28%;
-    }
-
-    @include responsive (phone-landscape) {
-      position: absolute;
-      top: 86rem;
-      left: 28%;
-    }
-
-    @include responsive(phone) {
-      position: absolute;
-      top: 140rem;
-      left: 20%;
-    }
 }

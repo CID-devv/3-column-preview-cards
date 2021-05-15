@@ -6,31 +6,11 @@
   -moz-border-radius: 3rem;
   -ms-border-radius: 3rem;
   -o-border-radius: 3rem;
-  
-
-
-  @include responsive(tab-landscape) {
-    padding: 1.5rem 4rem;
-  }
-  
-  @include responsive(tab-portrait) {
-    padding: 1.5rem 4rem;
-    border-radius: 5rem;
-    -webkit-border-radius: 5rem;
-    -moz-border-radius: 5rem;
-    -ms-border-radius: 5rem;
-    -o-border-radius: 5rem;
-}
-
-  @include responsive (phone-landscape){
-    padding: 1rem 2.5rem;
-    font-size: 1.5rem;
-  }
-
-  @include responsive(phone) {
-    padding:1.5rem 3.5rem;
-    font-size: 1.5rem;
-  }
+  transition: all .5s;
+  -webkit-transition: all .5s;
+  -moz-transition: all .5s;
+  -ms-transition: all .5s;
+  -o-transition: all .5s;
 
   &--orange {
     background-color: $light-gray;
@@ -47,9 +27,6 @@
   &--darker-cyan {
     background-color: $light-gray;
     color: $darker-cyan-color;
-
-   
-    
   }
 
   &:hover {
